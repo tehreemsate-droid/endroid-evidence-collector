@@ -1,0 +1,31 @@
+{
+  "package": "com.snapchat.android",
+  "artifacts": {
+    "device": {
+      "device_info": "reports\\run_2026-02-27_11-29-11\\device_info.txt"
+    },
+    "app": {
+      "app_info": "reports\\run_2026-02-27_11-29-11\\app_info.txt"
+    },
+    "permissions": {
+      "permissions": "reports\\run_2026-02-27_11-29-11\\permissions.txt"
+    },
+    "components": {
+      "components": "reports\\run_2026-02-27_11-29-11\\components.txt"
+    },
+    "logs": {
+      "logs": "reports\\run_2026-02-27_11-29-11\\logs.txt",
+      "hits": []
+    }
+  },
+  "findings": [
+    {
+      "id": "COMP-REVIEW",
+      "title": "Review exported components / intent exposure",
+      "severity": "MEDIUM",
+      "evidence": {
+        "file": "components.txt"
+      }
+    }
+  ]
+}

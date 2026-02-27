@@ -1,0 +1,2586 @@
+
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/com.snapchat.android.chat:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter c37a09c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.chat"
+      snapvideo/*:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1c713b3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9361d70
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      */*:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1f9eed4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "creativekit": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 795380f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "camera": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      vnd.android.cursor.item/com.snapchat.android.video:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b471aa5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.video"
+      vnd.android.cursor.item/com.snapchat.android.voice:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 802ce7a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.voice"
+      text/plain:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter fec7aed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      video/mp4:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 72dbd17
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 4e0b504
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+      image/*:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ab944b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5b65d96
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter da2d8e9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9a3896e
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter c37a09c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.chat"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b471aa5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.video"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 802ce7a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.voice"
+      text:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter fec7aed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      video:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 72dbd17
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 4e0b504
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+
+  Wild MIME Types:
+      *:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1f9eed4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "creativekit": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 795380f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "camera": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ab944b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5b65d96
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter da2d8e9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9a3896e
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      snapvideo:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1c713b3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9361d70
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      com.snapchat.android.braintree:
+        f8b51e2 com.snapchat.android/com.braintreepayments.api.BraintreeBrowserSwitchActivity filter 810e973
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.snapchat.android.braintree"
+      :
+        390aa2e com.snapchat.android/com.spotify.sdk.android.auth.LoginActivity filter 606a9cf
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: ""
+          Authority: "": -1
+          AutoVerify=true
+      amzn:
+        dad8f5c com.snapchat.android/com.amazon.identity.auth.device.workflow.WorkflowActivity filter 1bc4265
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "amzn"
+          Authority: "com.snapchat.android": -1
+      http:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 6712440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "snapchat.com": -1
+          Authority: "www.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b81f79
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "link.snapchat.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ee1c91f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "story.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter e64446c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "map.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5123a35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "lens.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b873b58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "web.snapchat.com": -1
+          AutoVerify=true
+      https:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 6712440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "snapchat.com": -1
+          Authority: "www.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b81f79
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "http"
+          Authority: "link.snapchat.com": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 89274be
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "snapchat.onelink.me": -1
+          Authority: "click.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /aVHG}"
+          Path: "PatternMatcher{PREFIX: /DVYZ}"
+          Path: "PatternMatcher{PREFIX: /jVMS}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ee1c91f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "story.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter e64446c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "map.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5123a35
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "lens.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 7d1eca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "t.snapchat.com": -1
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ee3d83b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "share.snapchat.com": -1
+          Path: "PatternMatcher{PREFIX: /m/}"
+          AutoVerify=true
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b873b58
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "web.snapchat.com": -1
+          AutoVerify=true
+      fbconnect:
+        fd1b6d7 com.snapchat.android/com.facebook.CustomTabActivity filter aeb6aad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.snapchat.android": -1
+      snapchat:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1f9eed4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "creativekit": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 7329372
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "snapchat"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1c713b3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9361d70
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter da2d8e9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9a3896e
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 795380f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "camera": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      fb559927829732067:
+        fd1b6d7 com.snapchat.android/com.facebook.CustomTabActivity filter 34a8bc4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fb559927829732067"
+
+  Non-Data Actions:
+      com.samsung.android.support.REMOTE_ACTION:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 572bd22
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+      android.intent.action.MAIN:
+        77462b com.snapchat.android/.SantaHatAlias filter a6c2a88
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        233bc21 com.snapchat.android/.GingerBreadAlias filter 5df5846
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        9221a07 com.snapchat.android/.StringLightAlias filter fdd6734
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ceef95d com.snapchat.android/.FestiveGoldAlias filter ca8b2d2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        abc4fa3 com.snapchat.android/.CandyCaneAlias filter d83c2a0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e26ce59 com.snapchat.android/.IceCubeGhostAlias filter b3b2a1e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3a42ff com.snapchat.android/.FuzzyFleeceAlias filter 97268cc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b6cf715 com.snapchat.android/.DiamondGhostAlias filter febca2a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        57a101b com.snapchat.android/.SnowflakeAlias filter 5c345b8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7b2ef91 com.snapchat.android/.NyeDiscoBallAlias filter 7545ef6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c1f92f7 com.snapchat.android/.ColorPencilStarsAlias filter a430564
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        985f3cd com.snapchat.android/.Icon22Alias filter bdf7482
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2306793 com.snapchat.android/.BlackMarbleAlias filter cdd13d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        90affc9 com.snapchat.android/.ChromeDripAlias filter 21456ce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        66fe9ef com.snapchat.android/.DuctTapeAlias filter 4c79cfc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1bacf85 com.snapchat.android/.CoquetteAlias filter da311da
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        67b360b com.snapchat.android/.PinkBubbleAlias filter 46f8ce8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3dddf01 com.snapchat.android/.PinkAlias filter b3071a6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2a527e7 com.snapchat.android/.ThemeGradientPinkAlias filter 6248f94
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1c86a3d com.snapchat.android/.LeopardAlias filter ae20232
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3925b83 com.snapchat.android/.AntiquePorcelainAlias filter 7851100
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        4d66d39 com.snapchat.android/.DenimPatchworkAlias filter 7aa0f7e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d952cdf com.snapchat.android/.PolkaDotLacquerAlias filter faa3d2c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        627a3f5 com.snapchat.android/.GoldBAlias filter 753a58a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        dc9b7fb com.snapchat.android/.PlusBlackAlias filter c140018
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        71b8a71 com.snapchat.android/.Plus2Alias filter f4e9056
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        cf1d8d7 com.snapchat.android/.RosegoldBlackAlias filter 5505c4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        58d5cad com.snapchat.android/.CrackedMirrorAlias filter a3b5be2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        4112b73 com.snapchat.android/.WireframeAlias filter 47eba30
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7d016a9 com.snapchat.android/.PinkGemAlias filter a37542e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ec90bcf com.snapchat.android/.LavaAlias filter e4d495c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c6a7465 com.snapchat.android/.ChillahFaceAlias filter 3e8853a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        77495eb com.snapchat.android/.Icon21Alias filter 1139f48
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        992f1e1 com.snapchat.android/.SharpieDoodleAlias filter e49bb06
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        904a5c7 com.snapchat.android/.EdgyTextAlias filter 6767f4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        86bcb1d com.snapchat.android/.PastelPaintDripAlias filter 3368192
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        29bd763 com.snapchat.android/.GoldenAlias filter 18d0f60
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7fefc19 com.snapchat.android/.PinkNeonAlias filter cb724de
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8ea86bf com.snapchat.android/.PicklesGhostAlias filter 7a3c18c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3fa40d5 com.snapchat.android/.Jersey67Alias filter b0cb0ea
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        14acfdb com.snapchat.android/.VampireFangsAlias filter 6916a78
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b2b1551 com.snapchat.android/.SkeletonXrayAlias filter f7cf1b6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        29c8eb7 com.snapchat.android/.RetroCartoonAlias filter 8aeb624
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1bab58d com.snapchat.android/.OilPaintingAlias filter 7de7342
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7e15f53 com.snapchat.android/.AntiqueVintageAlias filter 3331090
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b2a1d89 com.snapchat.android/.BlueSpectreAlias filter 6e4818e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        989daf com.snapchat.android/.JokerAlias filter 560a5bc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        80e0945 com.snapchat.android/.WildWestAlias filter 52b289a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        adb65cb com.snapchat.android/.AlienAlias filter e7061a8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        38af4c1 com.snapchat.android/.SnappyDoodleAlias filter 7033466
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        33893a7 com.snapchat.android/.KawaiiAlias filter 63df054
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c911bfd com.snapchat.android/.GemstoneCollageAlias filter 2fe30f2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        650c343 com.snapchat.android/.CherryBlossomAlias filter 4b3bdc0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6d87af9 com.snapchat.android/.ValentinesLollipopAlias filter 53a6a3e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        32509f com.snapchat.android/.VDayChromeAlias filter 3f6f5ec
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f9ccdb5 com.snapchat.android/.PaintLacquerAlias filter b6eec4a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        57557bb com.snapchat.android/.LipstickTextAlias filter 95384d8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2199031 com.snapchat.android/.HeartsAlias filter 5b78316
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        217b497 com.snapchat.android/.ValentinesTextEffectAlias filter e81684
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7c5fe6d com.snapchat.android/.Y2kSnapAlias filter 820baa2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a190333 com.snapchat.android/.SparkleShimmerAlias filter 81216f0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        511469 com.snapchat.android/.Plus3Alias filter 8f3deee
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7d69f8f com.snapchat.android/.HeartCakeAlias filter 299b21c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d5d8e25 com.snapchat.android/.HeartEyesAlias filter 7c2fbfa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        427a5ab com.snapchat.android/.OperaAestheticAlias filter 69dd408
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        dfde7a1 com.snapchat.android/.ValentinesScriptAlias filter 934ddc6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        438f187 com.snapchat.android/.ValentinesSugarCookieAlias filter b4028b4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5f05cdd com.snapchat.android/.VampIridescentAlias filter 3911052
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        9291f23 com.snapchat.android/.YellowPinkAlias filter 6111c20
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c9ae9d9 com.snapchat.android/.SnapTrippyAlias filter 80bdf9e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d648a7f com.snapchat.android/.NeonLightAlias filter 33bda4c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        fc74a95 com.snapchat.android/.ClassicGhostAlias filter 4d257aa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        bc14f9b com.snapchat.android/.NeonGhostAlias filter 4724f38
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        61efb11 com.snapchat.android/.DeniseAbAlias filter bd64476
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c5b4a77 com.snapchat.android/.PrideAlias filter 29926e4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d67374d com.snapchat.android/.Us2Alias filter a5a3202
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3301713 com.snapchat.android/.UkAlias filter e33cd50
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7cfb49 com.snapchat.android/.FranceAlias filter d3d6c4e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c7b116f com.snapchat.android/.UkraineAlias filter a906e7c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1110305 com.snapchat.android/.PlusGoldAlias filter e07ff5a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2d1558b com.snapchat.android/.MushroomAlias filter fb3f668
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        123ca81 com.snapchat.android/.SteamedDumplingAlias filter 4b6b726
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        afdbf67 com.snapchat.android/.PalmAlias filter f061114
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8418dbd com.snapchat.android/.NyeSwirlAlias filter a471fb2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        19ceb03 com.snapchat.android/.WitchHatAlias filter 6bd2a80
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7e48b9 com.snapchat.android/.PumpkinLanternAlias filter 80384fe
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        679345f com.snapchat.android/.AbstractFireworksAlias filter a6eac
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        731b775 com.snapchat.android/.AiWaveAlias filter f8ef30a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1a6b77b com.snapchat.android/.AirbrushSparkleBlueAlias filter 405c998
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d7355f1 com.snapchat.android/.AirbrushSparkleGreenAlias filter 7b135d6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e5f5057 com.snapchat.android/.AngelAlias filter 359e744
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        456602d com.snapchat.android/.AnimalAlias filter 9e2d962
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        79e9af3 com.snapchat.android/.ArcadeGameAlias filter cb033b0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e5d229 com.snapchat.android/.ArtDecoAlias filter c9929ae
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        27df34f com.snapchat.android/.BalloonAlias filter ddcdadc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3e067e5 com.snapchat.android/.BaseballAlias filter 65232ba
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        250756b com.snapchat.android/.BeachChillAlias filter bcac8c8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1349d61 com.snapchat.android/.BlueDeniseAlias filter 560c086
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        27efd47 com.snapchat.android/.BlueDoodleAlias filter d27a974
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        33cae9d com.snapchat.android/.BluePinkAlias filter 8785f12
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        22426e3 com.snapchat.android/.BluePrintAlias filter 3cfe8e0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5ba9799 com.snapchat.android/.BobaAlias filter 3f95a5e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d684e3f com.snapchat.android/.BratAlias filter fab30c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        4941455 com.snapchat.android/.BubbleAlias filter ffcbe6a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        9d8f5b com.snapchat.android/.BuffaloPlaidAlias filter 25f3f8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a4ea0d1 com.snapchat.android/.BunnyAlias filter b205736
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        11bc637 com.snapchat.android/.CeramicAlias filter 4c257a4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a4b790d com.snapchat.android/.ChalkboardAlias filter e12b0c2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7dc8ed3 com.snapchat.android/.CherryBlossomsAlias filter 69f4a10
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2c39909 com.snapchat.android/.ChromeAlias filter bdf170e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        9d7452f com.snapchat.android/.ChromeRadiationAlias filter 916f73c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        283bcc5 com.snapchat.android/.ClownAlias filter af9961a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a1d054b com.snapchat.android/.ColdAlias filter 8fa4b28
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e686041 com.snapchat.android/.CollageAlias filter 30af9e6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1b4ab27 com.snapchat.android/.ColorRibbonsAlias filter d3cf1d4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        299bf7d com.snapchat.android/.ColorWavesAlias filter b7cce72
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        936d2c3 com.snapchat.android/.ColorfulDotsAlias filter 6615740
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b87d679 com.snapchat.android/.ColorfulJellyGhostAlias filter 6c55fbe
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        29d81f com.snapchat.android/.ConfettiAlias filter 8a4a76c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2a66135 com.snapchat.android/.CookieDoughAlias filter 673b9ca
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e1dd73b com.snapchat.android/.CozyGradientAlias filter ceace58
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ae8dbb1 com.snapchat.android/.CupidAlias filter 3fba896
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        988ac17 com.snapchat.android/.CybersigilismAlias filter 46a7804
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8fe81ed com.snapchat.android/.DancePartyAlias filter a41b822
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        61f2b3 com.snapchat.android/.DenimAlias filter b191070
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        34e4fe9 com.snapchat.android/.DenisePinkAlias filter be7346e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e7f070f com.snapchat.android/.DenisePinkBlueAlias filter 4d6c39c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5b301a5 com.snapchat.android/.DevilAlias filter 256297a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        daf052b com.snapchat.android/.DiwaliClayLampAlias filter 15a7d88
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        4f71321 com.snapchat.android/.DiwaliFlowerAlias filter 18d6346
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b96c907 com.snapchat.android/.DiwaliGoldFrameAlias filter 2ddea34
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e10c05d com.snapchat.android/.DiwaliTypeAlias filter cac6dd2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        14ceea3 com.snapchat.android/.DoodleAlias filter 38975a0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d1e0559 com.snapchat.android/.DreamyGhostAlias filter 73f951e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8b5d1ff com.snapchat.android/.DreidelAlias filter 5a04bcc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8209e15 com.snapchat.android/.EasterEggGrassAlias filter f4be52a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b9f8f1b com.snapchat.android/.EidAlAdhaAlias filter a6c58b8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        97a0691 com.snapchat.android/.EggAlias filter c1b29f6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        89e01f7 com.snapchat.android/.EggSurpriseAlias filter bea4864
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6277acd com.snapchat.android/.FairyAlias filter dc7ef82
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        9a6c693 com.snapchat.android/.FallScarfAlias filter 53586d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        bbdf6c9 com.snapchat.android/.FlagAlias filter 98981ce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        86d38ef com.snapchat.android/.FlowersAlias filter 5b43ffc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2263685 com.snapchat.android/.FoilballoonAlias filter ebfecda
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c7e750b com.snapchat.android/.FoliageAlias filter b035fe8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d18b601 com.snapchat.android/.FortuneBallAlias filter bffca6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f1d56e7 com.snapchat.android/.FriendshipDayGhostAlias filter da29294
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        959b13d com.snapchat.android/.FrogAlias filter 15f3d32
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        de7a83 com.snapchat.android/.FrostedAlias filter c604400
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1b52439 com.snapchat.android/.FurryAlias filter 83ffa7e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d043bdf com.snapchat.android/.GalaxyAlias filter 285a02c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7bacaf5 com.snapchat.android/.GhostUniverseAlias filter 2dd408a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        69ab6fb com.snapchat.android/.GiftAlias filter 4c29318
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c3a2171 com.snapchat.android/.GiftWrapAlias filter 956db56
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b53c7d7 com.snapchat.android/.GingerCookieAlias filter d9c8c4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        37e63ad com.snapchat.android/.GlassAlias filter 3fd56e2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8230a73 com.snapchat.android/.GlitterStickerAlias filter c0cad30
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        14a8da9 com.snapchat.android/.GlitterAlias filter d9dff2e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b99dacf com.snapchat.android/.GlittersAlias filter c476c5c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8955b65 com.snapchat.android/.Gold2Alias filter e8ee03a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        20354eb com.snapchat.android/.GoldCAlias filter 80cf248
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b0548e1 com.snapchat.android/.GoldAlias filter c7ac606
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        74054c7 com.snapchat.android/.GooeyHalloweenAlias filter 922eaf4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        42c921d com.snapchat.android/.GrafittiAlias filter aed3c92
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a637663 com.snapchat.android/.GreenAlias filter dfdc260
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c853319 com.snapchat.android/.HalloweenEyeAlias filter 89e8fde
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f0d15bf com.snapchat.android/.HarvestMoonAlias filter 5eca48c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2ce7d5 com.snapchat.android/.HeartCandyAlias filter 57fcbea
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8874edb com.snapchat.android/.HeartCandiesAlias filter 4057d78
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5612c51 com.snapchat.android/.HeartsDarkerAlias filter d86bcb6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        aa1fdb7 com.snapchat.android/.HeatmapAlias filter 4d0f924
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ebb3c8d com.snapchat.android/.HoliPowdersAlias filter 439ee42
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c4ebe53 com.snapchat.android/.Icon23Alias filter 2b68390
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        52c1489 com.snapchat.android/.Icon24Alias filter cfcac8e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7fcecaf com.snapchat.android/.Icon25Alias filter 52848bc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5b87045 com.snapchat.android/.Icon26Alias filter c1b039a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5b5a4cb com.snapchat.android/.ImpressionistAlias filter 68f34a8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ef4cbc1 com.snapchat.android/.KintsugiAlias filter c95bf66
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        af7c2a7 com.snapchat.android/.JellyAlias filter cf6f354
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a4162fd com.snapchat.android/.LatteArtAlias filter 6ae6bf2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c53e243 com.snapchat.android/.LeafPuddleAlias filter 179f0c0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        cc631f9 com.snapchat.android/.LeprechaunAlias filter 333553e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        cc85f9f com.snapchat.android/.LeatherAlias filter 26d58ec
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c2ef4b5 com.snapchat.android/.MagicWandAlias filter 78b874a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6dd56bb com.snapchat.android/.MapAlias filter c4d17d8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3272731 com.snapchat.android/.MappaBurlAlias filter 682ce16
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b80a397 com.snapchat.android/.MariachiAlias filter 567d984
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        196056d com.snapchat.android/.Material01Alias filter 1d5b5a2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2a1e233 com.snapchat.android/.MemphisAlias filter 84b09f0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        49a8b69 com.snapchat.android/.MeshGhostAlias filter 87d89ee
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        98e6e8f com.snapchat.android/.MirrorFieldAlias filter 8eed51c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2477525 com.snapchat.android/.MummyAlias filter dbc56fa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b0d64ab com.snapchat.android/.NeonAlias filter a22708
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        51f3ea1 com.snapchat.android/.NeonWavesAlias filter 4e8e8c6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d3ba087 com.snapchat.android/.NorthlightAlias filter cb6abb4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        35023dd com.snapchat.android/.NyeConfettiAlias filter dfacb52
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        127be23 com.snapchat.android/.NyeGoldAlias filter beccf20
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        db020d9 com.snapchat.android/.NyeGoldGhostAlias filter ed64a9e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2e197f com.snapchat.android/.NyeSnowAlias filter 69fbd4c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        278f195 com.snapchat.android/.OrnamentAlias filter 55872aa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        314ce9b com.snapchat.android/.PinkPurpleAlias filter db16238
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        fc41211 com.snapchat.android/.PinkSlimeAlias filter e230f76
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ee7b977 com.snapchat.android/.PinkWrapperAlias filter c3669e4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1c6be4d com.snapchat.android/.PinwheelAlias filter c28ad02
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3947613 com.snapchat.android/.PixelAlias filter 7e24050
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8cdf249 com.snapchat.android/.PlanetAlias filter cf8974e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        846606f com.snapchat.android/.Plus1Alias filter c33117c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2fa6a05 com.snapchat.android/.PlushAlias filter 5cada5a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        182948b com.snapchat.android/.PopArtAlias filter c5dc968
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5bca181 com.snapchat.android/.PopArtSnapAlias filter 54c4226
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d03ee67 com.snapchat.android/.PoppyAlias filter 7fa1414
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        310d4bd com.snapchat.android/.PoolsideAlias filter 62a5ab2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f570a03 com.snapchat.android/.PotOfGoldAlias filter e6e5d80
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        67affb9 com.snapchat.android/.PumpkinGhostAlias filter e5f6ffe
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f36435f com.snapchat.android/.PumpkinGhost2Alias filter d1bd1ac
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5c2de75 com.snapchat.android/.PumpkinPieFrostingAlias filter 73e8e0a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        aa5b67b com.snapchat.android/.PumpkinSoupAlias filter 44a5c98
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        16fecf1 com.snapchat.android/.PurpleAlias filter a3f80d6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1cf3f57 com.snapchat.android/.PurpleWhiteAlias filter ed4aa44
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        105672d com.snapchat.android/.RainbowAlias filter e8ad462
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        39e79f3 com.snapchat.android/.RainbowBacklightAlias filter 89426b0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6fe4929 com.snapchat.android/.RainbowShapeAlias filter 345d4ae
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        81cc24f com.snapchat.android/.RamadanFlowerAlias filter f8cfddc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8894ee5 com.snapchat.android/.RamadanNightAlias filter 29e8dba
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        48d346b com.snapchat.android/.RBGDispersionAlias filter bda1bc8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        504f461 com.snapchat.android/.RedmasAlias filter 997cb86
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        548ac47 com.snapchat.android/.ReindeerAlias filter a592c74
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        93b759d com.snapchat.android/.ResinCharmAlias filter 951a12
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        959c5e3 com.snapchat.android/.RetroTitleAlias filter 6169be0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a5ece99 com.snapchat.android/.Retro80sAlias filter a6c55e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        bd8dd3f com.snapchat.android/.RoseDreamAlias filter c79960c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        4c4bb55 com.snapchat.android/.RosegoldRadiationAlias filter 195d96a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7080e5b com.snapchat.android/.RosesAlias filter 83006f8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a62b7d1 com.snapchat.android/.RubberDuckyAlias filter cb02236
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d2f3537 com.snapchat.android/.RubberhoseAlias filter eda9aa4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d0a000d com.snapchat.android/.ScubaAlias filter 542bc2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        337edd3 com.snapchat.android/.ShellOnBeachAlias filter d78bd10
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        639009 com.snapchat.android/.SilkAlias filter 3d420e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        909942f com.snapchat.android/.SilverOnLeatherAlias filter f949a3c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        fac23c5 com.snapchat.android/.SilverRadialAlias filter e8f711a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ba5444b com.snapchat.android/.SlidePuzzleAlias filter d2f1e28
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3303741 com.snapchat.android/.SnapBalloonAlias filter 9a384e6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d01da27 com.snapchat.android/.SnapBlueAlias filter b6bf4d4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        188067d com.snapchat.android/.SnapClonesAlias filter a930972
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        da7f1c3 com.snapchat.android/.SnowmanGhostAlias filter bfd8a40
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8938d79 com.snapchat.android/.SparklerSpinAlias filter 844abe
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        40de71f com.snapchat.android/.SpiderWebAlias filter 7510a6c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a368835 com.snapchat.android/.SprayPaintAlias filter 4b654ca
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        db3d63b com.snapchat.android/.SpringAlias filter d7a6158
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8d472b1 com.snapchat.android/.SpringBubbleTextAlias filter 34cf396
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5ff9b17 com.snapchat.android/.SpringFlowerFieldAlias filter 9e03b04
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f8c88ed com.snapchat.android/.SpringGradientAlias filter 4dcb322
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ed8d1b3 com.snapchat.android/.SummerForestAlias filter 5a80370
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        235c6e9 com.snapchat.android/.SummerPoolFloatyAlias filter 4b6df6e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        704d60f com.snapchat.android/.SunburstAlias filter 4e1e69c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        11ae8a5 com.snapchat.android/.SweaterGhostAlias filter ff5847a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a42c42b com.snapchat.android/.TealAlias filter a74d088
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c766a21 com.snapchat.android/.thanksgivingfullAlias filter 9476e46
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        7277807 com.snapchat.android/.thanksgivingleafAlias filter eca6d34
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        3ae875d com.snapchat.android/.thanksgivingsignAlias filter d7c28d2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6b98da3 com.snapchat.android/.TextMeltAlias filter 53b28a0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        c513c59 com.snapchat.android/.ThemeGradientGreenAlias filter 4d0001e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        1cd60ff com.snapchat.android/.ThemeGradientPurpleAlias filter c3a2ecc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        cd04515 com.snapchat.android/.TieDyeAlias filter cf8002a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        210e1b com.snapchat.android/.ToastedMarshmallowAlias filter 4416bb8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        6fd1d91 com.snapchat.android/.TombstoneAlias filter 7edf4f6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        d3870f7 com.snapchat.android/.TortoiseShellAlias filter 97d8b64
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e4501cd com.snapchat.android/.TranslucentGhostHalloweenAlias filter b7c6a82
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ef92593 com.snapchat.android/.TulipsAlias filter c39f9d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        5acedc9 com.snapchat.android/.Us1Alias filter d8aacce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        a0687ef com.snapchat.android/.VampireAlias filter 40ce2fc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        18d9d85 com.snapchat.android/.VaporwaveAlias filter 928c7da
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        fddb40b com.snapchat.android/.Vday70sLoveAlias filter 9c332e8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        90f8d01 com.snapchat.android/.VDayRainbowAlias filter 85b87a6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        2b185e7 com.snapchat.android/.VhsAlias filter 40c9594
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        366f83d com.snapchat.android/.WaxSealAlias filter ea87832
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b069983 com.snapchat.android/.WitchAlias filter 2e77700
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        ccfdb39 com.snapchat.android/.WoodAlias filter 61e57e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b0f4adf com.snapchat.android/.XrayGhostAlias filter 5cd032c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        f49f1f5 com.snapchat.android/.YellowIridescentAlias filter 2b2db8a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        bc7b5fb com.snapchat.android/.ZombieGhostAlias filter 89d2618
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        b14b871 com.snapchat.android/.LandingPageActivity filter 6b2656
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        8813b3a com.snapchat.android/com.razorpay.CheckoutActivity filter 7ee13eb
+          Action: "android.intent.action.MAIN"
+        d324548 com.snapchat.android/com.snap.keyboard.lib.rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity filter d339fe1
+          Action: "android.intent.action.MAIN"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        2b7d106 com.snapchat.android/com.snap.widgets.core.mapwidget.MapWidgetConfigActivity filter a9803c7
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      android.media.action.STILL_IMAGE_CAMERA:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter a27787d
+          Action: "android.media.action.STILL_IMAGE_CAMERA"
+          Category: "android.intent.category.DEFAULT"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5a1b3c3
+          Action: "android.media.action.STILL_IMAGE_CAMERA"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.STILL_IMAGE_CAMERA_SECURE:
+        6ca6df4 com.snapchat.android/com.snap.catalina.core.CatalinaActivity filter 69591d
+          Action: "android.media.action.STILL_IMAGE_CAMERA_SECURE"
+          Category: "android.intent.category.DEFAULT"
+      snap.intent.action.REQUEST_LEGAL:
+        846a030 com.snapchat.android/com.snap.identity.ui.legal.LegalAgreementActivity filter 104a9
+          Action: "snap.intent.action.REQUEST_LEGAL"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.intent.action.LOCKSCREEN_SHORTCUT_APP:
+        6ca6df4 com.snapchat.android/com.snap.catalina.core.CatalinaActivity filter f6ff792
+          Action: "com.samsung.intent.action.LOCKSCREEN_SHORTCUT_APP"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1f9eed4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "creativekit": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter ab944b1
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 72dbd17
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter fec7aed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 1c713b3
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter da2d8e9
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 795380f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "camera": -1
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.VIEW:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter c37a09c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.chat"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter b471aa5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.video"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 802ce7a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/com.snapchat.android.voice"
+      android.intent.action.SEND_MULTIPLE:
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 5b65d96
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 4e0b504
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video/mp4"
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9361d70
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "snapvideo"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        1837c27 com.snapchat.android/com.snap.mushroom.MainActivity filter 9a3896e
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "snapchat"
+          Authority: "preview": -1
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        a3ee6ea com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter a1fcddb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        aa1878c com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 5b8ed5
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.google.android.gms.auth.api.phone.SMS_RETRIEVED:
+        f01b1fa com.snapchat.android/com.snap.ms.authapiphone.gms.GoogleSmsRetrieverV2 filter 94f23ab
+          Action: "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+      snap.intent.action.EXPORT_STATUS:
+        69334ee com.snapchat.android/com.snap.media.export.ExportStatusBroadcastReceiver filter 4e23d8f
+          Action: "snap.intent.action.EXPORT_STATUS"
+      com.whatsapp.otp.OTP_ERROR:
+        e9bf654 com.snapchat.android/com.snap.identity.lib.whatsappotp.WhatsappOtpErrorReceiver filter 66da9fd
+          Action: "com.whatsapp.otp.OTP_ERROR"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        d071563 com.snapchat.android/androidx.profileinstaller.ProfileInstallReceiver filter 211fade
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        672aad8 com.snapchat.android/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter 9f0be31
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        2a59078 com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 7534351
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        e9c87b6 com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 6c36cb7
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        3f4224a com.snapchat.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter a155bb
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        2a59078 com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 7534351
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      snap.intent.action.FORCE_LOG_OUT:
+        2da07a8 com.snapchat.android/com.snap.identity.service.ForcedLogoutBroadcastReceiver filter 91aa2c1
+          Action: "snap.intent.action.FORCE_LOG_OUT"
+      android.intent.action.LOCALE_CHANGED:
+        5a1916 com.snapchat.android/com.snap.keyboard.lib.rkr.simplekeyboard.inputmethod.latin.SystemBroadcastReceiver filter 7059297
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.amazon.A3L.messaging.intent.REGISTRATION:
+        ba0d78e com.snapchat.android/com.snap.ms.notification.service.SnapNotificationA3LMessageService filter afd3baf
+          Action: "com.amazon.A3L.messaging.intent.REGISTRATION"
+          Action: "com.amazon.A3L.messaging.intent.MESSAGE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        d071563 com.snapchat.android/androidx.profileinstaller.ProfileInstallReceiver filter 21a7560
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        856de9a com.snapchat.android/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 9ebe3cb
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      snap.intent.action.LOGIN_COMPLETE:
+        bec23c0 com.snapchat.android/com.snap.notification.service.LoginNotificationReceiver filter cefe8f9
+          Action: "snap.intent.action.LOGIN_COMPLETE"
+      android.intent.action.BATTERY_LOW:
+        a3ee6ea com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter a1fcddb
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        8df3c24 com.snapchat.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 337c38d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+        4b8403e com.snapchat.android/com.snap.atlas.TimezoneChangeReceiver filter 3fa6e9f
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        8df3c24 com.snapchat.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 337c38d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        d071563 com.snapchat.android/androidx.profileinstaller.ProfileInstallReceiver filter d476a19
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.snap.android.WIDGET_APP_START_UPDATE_ACTION:
+        7d39c84 com.snapchat.android/com.snap.widgets.core.BestFriendsWidgetProvider filter 956b0a2
+          Action: "com.snap.android.WIDGET_APP_START_UPDATE_ACTION"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        d071563 com.snapchat.android/androidx.profileinstaller.ProfileInstallReceiver filter 1cba4bf
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        8df3c24 com.snapchat.android/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 337c38d
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED:
+        d2aa6f2 com.snapchat.android/com.snap.notification.channels.NotificationBlockStateBroadcastReceiver filter b330143
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.media.action.MICROPHONE_MUTE_CHANGED:
+        eaff81c com.snapchat.android/androidx.core.telecom.internal.MuteStateReceiver filter 2d5c25
+          Action: "android.media.action.MICROPHONE_MUTE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        aa1878c com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 5b8ed5
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.amazon.device.messaging.intent.RECEIVE:
+        e5bebbc com.snapchat.android/com.amazon.A3L.messaging.ADM.messaging.A3LMessagingADMPlatformListener filter e5ed745
+          Action: "com.amazon.device.messaging.intent.RECEIVE"
+          Category: "com.snapchat.android"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        d2aa6f2 com.snapchat.android/com.snap.notification.channels.NotificationBlockStateBroadcastReceiver filter b330143
+          Action: "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.snap.android.MAP_WIDGET_UPDATE_ACTION:
+        306c133 com.snapchat.android/com.snap.widgets.core.mapwidget.MapWidgetProvider filter a200269
+          Action: "com.snap.android.MAP_WIDGET_UPDATE_ACTION"
+      com.whatsapp.otp.OTP_RETRIEVED:
+        344a66 com.snapchat.android/com.snap.identity.lib.whatsappotp.WhatsappOtpCodeReceiver filter 5d2f1a7
+          Action: "com.whatsapp.otp.OTP_RETRIEVED"
+      com.amazon.A3L.messaging.intent.MESSAGE:
+        ba0d78e com.snapchat.android/com.snap.ms.notification.service.SnapNotificationA3LMessageService filter afd3baf
+          Action: "com.amazon.A3L.messaging.intent.REGISTRATION"
+          Action: "com.amazon.A3L.messaging.intent.MESSAGE"
+      rzp.device_token.share:
+        d4fbbec com.snapchat.android/com.razorpay.RzpTokenReceiver filter abd1bb5
+          Action: "rzp.device_token.share"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        7d39c84 com.snapchat.android/com.snap.widgets.core.BestFriendsWidgetProvider filter e20c6d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        306c133 com.snapchat.android/com.snap.widgets.core.mapwidget.MapWidgetProvider filter 92ffcf0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        ce5f690 com.snapchat.android/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 26a0b89
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        8616942 com.snapchat.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter a981d53
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+
+Service Resolver Table:
+  Non-Data Actions:
+      snap.intent.action.MEDIA_EXPORT_SERVICE_START:
+        c2a8daa com.snapchat.android/com.snap.media.export.MediaExportService filter c44d9b
+          Action: "snap.intent.action.MEDIA_EXPORT_SERVICE_START"
+      android.content.SyncAdapter:
+        5748220 com.snapchat.android/com.snap.identity.enhancedcontacts.core.EnhancedContactsSyncService filter 70157d9
+          Action: "android.content.SyncAdapter"
+      com.google.firebase.MESSAGING_EVENT:
+        4d27a08 com.snapchat.android/com.snap.ms.notification.service.SnapNotificationMessageService filter 8fc95a1
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          Category: "com.snap.mushroom"
+        4a8f3c6 com.snapchat.android/com.amazon.A3L.messaging.FCM.messaging.A3LMessagingFCMPlatformListener filter 75a4f87
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        f192eb4 com.snapchat.android/com.google.firebase.messaging.FirebaseMessagingService filter d2beadd
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.telecom.ConnectionService:
+        41c7538 com.snapchat.android/com.snap.talk.core.telecom.SnapConnectionService filter d252911 permission android.permission.BIND_TELECOM_CONNECTION_SERVICE
+          Action: "android.telecom.ConnectionService"
+        f7bda76 com.snapchat.android/androidx.core.telecom.internal.JetpackConnectionService filter 1902877 permission android.permission.BIND_TELECOM_CONNECTION_SERVICE
+          Action: "android.telecom.ConnectionService"
+      android.view.InputMethod:
+        c6fa04c com.snapchat.android/com.snap.keyboard.lib.SnapKeyboardIME filter 5269895 permission android.permission.BIND_INPUT_METHOD
+          Action: "android.view.InputMethod"
+      android.accounts.AccountAuthenticator:
+        1308652 com.snapchat.android/com.snap.identity.enhancedcontacts.core.SnapAndroidAccountAuthenticatorService filter 25d23
+          Action: "android.accounts.AccountAuthenticator"
+      android.service.chooser.ChooserTargetService:
+        f2cb59e com.snapchat.android/com.snap.shortcuts.list.SnapChooserTargetService filter b93a87f permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+
+Domain verification status:
+  com.snapchat.android:
+    ID: 0b36978a-a8d6-4434-9766-e9af6fa0b970
+    Signatures: [2F:1C:AA:FC:A1:ED:30:D0:B4:E3:88:63:EE:FA:BE:A0:E8:15:71:1F:A4:CF:79:B8:22:51:9A:82:59:D9:5A:58]
+    Domain verification state:
+      link.snapchat.com: verified
+      www.snapchat.com: verified
+      share.snapchat.com: verified
+      click.snapchat.com: verified
+      web.snapchat.com: verified
+      snapchat.onelink.me: verified
+      map.snapchat.com: 1024
+      lens.snapchat.com: verified
+      snapchat.com: verified
+      t.snapchat.com: verified
+      story.snapchat.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          link.snapchat.com
+          www.snapchat.com
+          share.snapchat.com
+          click.snapchat.com
+          web.snapchat.com
+          snapchat.onelink.me
+          map.snapchat.com
+          lens.snapchat.com
+          snapchat.com
+          t.snapchat.com
+          story.snapchat.com
+
+Permissions:
+  Permission [com.snapchat.android.permission.RECEIVE_ADM_MESSAGE] (e867381):
+    sourcePackage=com.snapchat.android
+    uid=10301 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b520ad0 com.snapchat.android.permission.RECEIVE_ADM_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.snapchat.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (d36ac26):
+    sourcePackage=com.snapchat.android
+    uid=10301 gids=[] type=0 prot=signature
+    perm=PermissionInfo{aa3a5ce com.snapchat.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.snapchat.android.permission.UPDATE_STICKER_INDEX] (41f1067):
+    sourcePackage=com.snapchat.android
+    uid=10301 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b1503fc com.snapchat.android.permission.UPDATE_STICKER_INDEX}
+    flags=0x0
+
+Registered ContentProviders:
+  com.snapchat.android/com.snap.keyboard.lib.KeyboardContentProvider:
+    Provider{11aa85 com.snapchat.android/com.snap.keyboard.lib.KeyboardContentProvider}
+  com.snapchat.android/com.cardinalcommerce.a.setOutlineSpotShadowColor:
+    Provider{15850da com.snapchat.android/com.cardinalcommerce.a.setOutlineSpotShadowColor}
+  com.snapchat.android/com.snap.content.LockscreenModeContentProvider:
+    Provider{dd9090b com.snapchat.android/com.snap.content.LockscreenModeContentProvider}
+  com.snapchat.android/androidx.startup.InitializationProvider:
+    Provider{fac63e8 com.snapchat.android/androidx.startup.InitializationProvider}
+  com.snapchat.android/com.snap.media.provider.MediaPackageFileProvider:
+    Provider{476a01 com.snapchat.android/com.snap.media.provider.MediaPackageFileProvider}
+
+ContentProvider Authorities:
+  [com.snapchat.android.media.fileprovider]:
+    Provider{476a01 com.snapchat.android/com.snap.media.provider.MediaPackageFileProvider}
+      applicationInfo=ApplicationInfo{ee38e14 com.snapchat.android}
+  [com.snapchat.android.provider]:
+    Provider{dd9090b com.snapchat.android/com.snap.content.LockscreenModeContentProvider}
+      applicationInfo=ApplicationInfo{3a5c6bd com.snapchat.android}
+  [com.snapchat.android.keyboard]:
+    Provider{11aa85 com.snapchat.android/com.snap.keyboard.lib.KeyboardContentProvider}
+      applicationInfo=ApplicationInfo{35164b2 com.snapchat.android}
+  [com.snapchat.android.androidx-startup]:
+    Provider{fac63e8 com.snapchat.android/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a024c03 com.snapchat.android}
+  [com.snapchat.android.CCInitProvider]:
+    Provider{15850da com.snapchat.android/com.cardinalcommerce.a.setOutlineSpotShadowColor}
+      applicationInfo=ApplicationInfo{3757780 com.snapchat.android}
+
+Key Set Manager:
+  [com.snapchat.android]
+      Signing KeySets: 108
+
+Packages:
+  Package [com.snapchat.android] (8778e83):
+    appId=10301
+    pkg=Package{85755c5 com.snapchat.android}
+    codePath=/data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==
+    resourcePath=/data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==
+    legacyNativeLibraryDir=/data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=269522 minSdk=21 targetSdk=35
+    minExtensionVersions=[]
+    versionName=13.80.0.51
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base, bloops_dynamic_sdk, bloops_dynamic_sdk.config.arm64_v8a, config.arm64_v8a, config.en, config.ur, config.xhdpi]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING PRIVATE_FLAG_HAS_FRAGILE_USER_DATA ]
+    forceQueryable=false
+    queriesPackages=[com.twitter.android, com.whatsapp, com.zhiliaoapp.musically, com.facebook.katana, com.facebook.orca, com.instagram.android, com.waze, com.google.android.apps.maps, com.android.settings, com.huawei.systemmanager, com.sonymobile.cta, com.meizu.safe, com.miui.securitycenter, com.color.safecenter, com.letv.android.letvsafe, com.qihoo360.mobilesafe, ai.perplexity.app.android, com.whatsapp.w4b, com.spotify.music, com.spotify.music.debug, com.spotify.music.canary, com.spotify.music.partners, com.google.android.webview, com.google.android.webview.beta, com.google.android.webview.dev, com.google.android.webview.canary, com.google.android.webview.debug, com.android.webview, com.venmo, com.paypal.android.p2pmobile, com.samsung.android.mapsagent, com.apple.android.music, com.netflix.mediaclient, com.google.android.apps.youtube.music, com.google.android.youtube, com.google.ar.core, com.android.vending]
+    queriesIntents=[Intent { act=android.intent.action.SEND dat=content://*/... typ=image/jpeg }, Intent { act=android.intent.action.SEND dat=content://*/... typ=video/mp4 }, Intent { act=android.intent.action.SEND dat=content://*/... typ=text/plain }, Intent { act=android.intent.action.VIEW }, Intent { act=android.intent.action.SENDTO }, Intent { act=android.settings.LOCATION_SOURCE_SETTINGS }, Intent { act=com.android.vending.billing.InAppBillingService.BIND }, Intent { act=android.intent.action.SEND }, Intent { act=com.spotify.sso.action.START_AUTH_FLOW dat=content://*/... typ=text/plain }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.intent.action.VIEW dat=*:/... typ=*/* }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=upi://pay/... typ=*/* }, Intent { act=android.intent.action.MAIN }, Intent { act=android.intent.action.SEND dat=content://*/... typ=*/* }, Intent { act=rzp.device_token.share }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.DIAL }, Intent { act=android.intent.action.SENDTO dat=mailto:xxxxx }, Intent { act=com.google.android.play.core.install.BIND_INSTALL_SERVICE }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      scamera_sep
+    usesOptionalNativeLibraries:
+      libOpenCL-pixel.so
+      libOpenCL.so
+      libGLES_mali.so
+      libPVROCL.so
+      libadsprpc.so
+      libtnn.so
+      libedgetpu_tflite.so
+      libedgetpu_util.so
+      libedgetpu_client.google.so
+      libtflite_ml_drift_cl.so
+    usesLibraryFiles:
+      libOpenCL.so
+    timeStamp=2026-02-22 14:47:19
+    lastUpdateTime=2026-02-22 14:47:23
+    installerPackageName=com.android.vending
+    installerPackageUid=10193
+    initiatingPackageName=com.android.vending
+    originatingPackageName=null
+    updateOwnerPackageName=com.android.vending
+    packageSource=0
+    appMetadataFilePath=/data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==/app.metadata
+    appMetadataSource=2
+    signatures=PackageSignatures{4a5c800 version:3, signatures:[2807ef8b], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING PRIVATE_FLAG_HAS_FRAGILE_USER_DATA ]
+    apexModuleName=null
+    declared permissions:
+      com.snapchat.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+      com.snapchat.android.permission.RECEIVE_ADM_MESSAGE: prot=signature
+      com.snapchat.android.permission.UPDATE_STICKER_INDEX: prot=signature
+    requested permissions:
+      com.samsung.android.mapsagent.permission.READ_APP_INFO
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.snapchat.android.permission.RECEIVE_ADM_MESSAGE
+      com.oplus.systemui.permission.LOCKSCREEN_SHORTCUTS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      android.permission.DETECT_SCREEN_CAPTURE
+      me.everything.badger.permission.BADGE_COUNT_READ
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.sec.android.provider.badge.permission.READ
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WRITE_SYNC_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.READ_PROFILE
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      com.android.vending.BILLING
+      com.amazon.device.messaging.permission.RECEIVE
+      com.vivo.notification.permission.BADGE_ICON
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.READ_APP_BADGE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.WRITE_CONTACTS
+      android.permission.CHANGE_WIFI_STATE
+      com.majeur.launcher.permission.UPDATE_BADGE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      com.oppo.launcher.permission.READ_SETTINGS
+      android.permission.CAMERA
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      android.permission.READ_MEDIA_VIDEO
+      com.sec.android.provider.badge.permission.WRITE
+      android.permission.READ_SYNC_STATS
+      android.permission.MANAGE_OWN_CALLS
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.READ_SYNC_SETTINGS
+      com.snapchat.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      android.permission.ACCESS_WIFI_STATE
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      android.permission.RECORD_AUDIO
+      com.google.android.gms.permission.AD_ID
+      com.htc.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      com.snapchat.android.permission.UPDATE_STICKER_INDEX
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.FOREGROUND_SERVICE_PHONE_CALL
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.snapchat.android.permission.RECEIVE_ADM_MESSAGE: granted=true
+      android.permission.DETECT_SCREEN_CAPTURE: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      android.permission.FOREGROUND_SERVICE_LOCATION: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.MANAGE_OWN_CALLS: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION: granted=true
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      com.snapchat.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.snapchat.android.permission.UPDATE_STICKER_INDEX: granted=true
+      android.permission.FOREGROUND_SERVICE_PHONE_CALL: granted=true
+    User 0: ceDataInode=135865 deDataInode=109349 installed=true hidden=false vHidden=1 suspended=false distractionFlags=0 stopped=false vStopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=4
+      dataDir=/data/user/0/com.snapchat.android
+      firstInstallTime=2025-12-04 15:28:25
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+      lastDisabledCaller: com.android.vending
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_NUMBERS: granted=false, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SET|USER_FIXED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      enabledComponents:
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+    User 999: ceDataInode=0 deDataInode=0 installed=false hidden=false vHidden=1 suspended=false distractionFlags=0 stopped=true vStopped=false notLaunched=true enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=null
+      firstInstallTime=1970-01-01 05:00:00
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_NUMBERS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.netflix.mediaclient:
+      com.snapchat.android
+    com.spotify.music:
+      com.snapchat.android
+    com.openai.chatgpt:
+      com.snapchat.android
+    com.snapchat.android:
+      com.google.ar.core
+      com.google.android.webview
+      com.google.android.apps.maps
+      com.google.android.youtube
+      com.facebook.katana
+      com.netflix.mediaclient
+      com.spotify.music
+      com.whatsapp
+      com.whatsapp.w4b
+      com.instagram.android
+    com.lemon.lvoverseas:
+      com.snapchat.android
+    com.discord:
+      com.snapchat.android
+  queries via component:
+    com.android.settings.intelligence:
+      com.snapchat.android
+    com.google.android.inputmethod.latin:
+      com.snapchat.android
+    com.google.android.as:
+      com.snapchat.android
+    com.google.android.as.oss:
+      com.snapchat.android
+    com.google.android.apps.messaging:
+      com.snapchat.android
+    [com.google.android.gms,com.google.android.gsf]:
+      com.snapchat.android
+    com.google.android.contacts:
+      com.snapchat.android
+    com.google.android.gm:
+      com.snapchat.android
+    com.google.android.apps.maps:
+      com.snapchat.android
+    com.google.android.apps.photos:
+      com.snapchat.android
+    com.google.android.youtube:
+      com.snapchat.android
+    com.google.android.permissioncontroller:
+      com.snapchat.android
+    com.facebook.katana:
+      com.snapchat.android
+    com.linkedin.android:
+      com.snapchat.android
+    com.spotify.music:
+      com.snapchat.android
+    com.whatsapp:
+      com.snapchat.android
+    com.camerasideas.instashot:
+      com.snapchat.android
+    apps.r.calculator:
+      com.snapchat.android
+    us.zoom.videomeetings:
+      com.snapchat.android
+    com.vitastudio.mahjong:
+      com.snapchat.android
+    com.google.android.apps.youtube.creator:
+      com.snapchat.android
+    com.qrcode.scanner.barcodescanner.code.reader:
+      com.snapchat.android
+    com.lenovo.anyshare.gps:
+      com.snapchat.android
+    com.canva.editor:
+      com.snapchat.android
+    com.whatsapp.w4b:
+      com.snapchat.android
+    com.snapchat.android:
+      com.google.android.documentsui
+      com.android.htmlviewer
+      com.vivo.magazine
+      com.google.android.inputmethod.latin
+      com.google.android.projection.gearhead
+      com.google.android.apps.nbu.files
+      com.google.android.apps.restore
+      com.google.android.dialer
+      com.google.android.apps.safetyhub
+      com.google.android.as.oss
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      com.vivo.carrierlocation
+      com.google.android.calendar
+      com.android.chrome
+      com.google.android.contacts
+      com.google.audio.hearing.visualization.accessibility.scribe
+      com.google.android.gm
+      com.google.android.apps.tachyon
+      com.google.android.accessibility.switchaccess
+      com.google.android.apps.maps
+      com.google.android.apps.photos
+      com.google.android.youtube
+      com.google.android.setupwizard
+      com.google.android.cellbroadcastreceiver
+      com.android.cts.priv.ctsshim
+      com.android.cts.ctsshim
+      com.google.android.devicelockcontroller
+      com.google.android.photopicker
+      com.google.android.healthconnect.controller
+      com.facebook.katana
+      com.netflix.mediaclient
+      com.linkedin.android
+      com.spotify.music
+      com.jazz.jazzworld
+      com.whatsapp
+      com.google.android.apps.bard
+      com.camerasideas.instashot
+      com.nayapay.app
+      apps.r.calculator
+      us.zoom.videomeetings
+      com.openai.chatgpt
+      com.vitastudio.mahjong
+      com.google.android.apps.youtube.creator
+      com.qrcode.scanner.barcodescanner.code.reader
+      com.lenovo.anyshare.gps
+      com.gamma.scan
+      org.chromium.webapk.a79a8501228f0cf0f_v2
+      com.canva.editor
+      com.indeed.android.jobsearch
+      com.whatsapp.w4b
+      com.enjoy.moviebox
+      com.intsig.camscanner
+      com.piass.esm
+      com.instagram.android
+      com.lemon.lvoverseas
+      com.discord
+      org.chromium.webapk.a66c553926c6ccc08_v2
+      com.github.android
+      com.jrzheng.supervpnfree
+    com.intsig.camscanner:
+      com.snapchat.android
+    com.instagram.android:
+      com.snapchat.android
+    com.lemon.lvoverseas:
+      com.snapchat.android
+    com.discord:
+      com.snapchat.android
+  queryable via interaction:
+    User 0:
+      [com.vivo.upslide,com.android.settings,android,com.android.inputdevices,com.vivo.gamewatch,com.sprd.camta,com.vivo.multinlp,com.android.location.fused,com.vivo.pem,com.vivo.networkstate,com.vivo.aiengine,com.android.dynsystem,com.vivo.smartmultiwindow,com.vivo.doubleinstance,com.vivo.vibrator4d,com.vivo.audiofx,com.vivo.fingerprintvit,com.vivo.fuelsummary,com.vivo.fingerprintui,com.vivo.gamecube,com.vivo.minscreen,com.vivo.abe,com.vivo.appfilter,com.vivo.faceui,com.vivo.smartshot,com.android.providers.settings,com.android.server.telecom,com.bbk.SuperPowerSave,com.vivo.daemonService,com.vivo.crontab,com.android.keychain,com.android.DeviceAsWebcam,com.vivo.pie,com.vos.as.vit,com.android.bbklog,com.vivo.sps,com.android.localtransport]:
+        com.snapchat.android
+      com.google.android.providers.media.module:
+        com.snapchat.android
+      [com.android.providers.blockednumber,com.android.calllogbackup,com.android.providers.userdictionary,com.android.providers.contacts]:
+        com.snapchat.android
+      [com.android.systemui,com.vivo.systemuiplugin]:
+        com.snapchat.android
+      com.google.android.inputmethod.latin:
+        com.snapchat.android
+      com.vivo.pushservice:
+        com.snapchat.android
+      com.android.vending:
+        com.snapchat.android
+      [com.google.android.gms,com.google.android.gsf]:
+        com.snapchat.android
+      com.android.chrome:
+        com.snapchat.android
+      com.google.android.webview:
+        com.snapchat.android
+      com.google.android.ext.services:
+        com.snapchat.android
+      com.snapchat.android:
+        [com.vivo.upslide,com.android.settings,android,com.android.inputdevices,com.vivo.gamewatch,com.sprd.camta,com.vivo.multinlp,com.android.location.fused,com.vivo.pem,com.vivo.networkstate,com.vivo.aiengine,com.android.dynsystem,com.vivo.smartmultiwindow,com.vivo.doubleinstance,com.vivo.vibrator4d,com.vivo.audiofx,com.vivo.fingerprintvit,com.vivo.fuelsummary,com.vivo.fingerprintui,com.vivo.gamecube,com.vivo.minscreen,com.vivo.abe,com.vivo.appfilter,com.vivo.faceui,com.vivo.smartshot,com.android.providers.settings,com.android.server.telecom,com.bbk.SuperPowerSave,com.vivo.daemonService,com.vivo.crontab,com.android.keychain,com.android.DeviceAsWebcam,com.vivo.pie,com.vos.as.vit,com.android.bbklog,com.vivo.sps,com.android.localtransport]
+        [com.android.systemui,com.vivo.systemuiplugin]
+        com.google.android.webview
+      [com.vivo.upslide,com.android.settings,android,com.android.inputdevices,com.vivo.gamewatch,com.sprd.camta,com.vivo.multinlp,com.android.location.fused,com.vivo.pem,com.vivo.networkstate,com.vivo.aiengine,com.android.dynsystem,com.vivo.smartmultiwindow,com.vivo.doubleinstance,com.vivo.vibrator4d,com.vivo.audiofx,com.vivo.fingerprintvit,com.vivo.fuelsummary,com.vivo.fingerprintui,com.vivo.gamecube,com.vivo.minscreen,com.vivo.abe,com.vivo.appfilter,com.vivo.faceui,com.vivo.smartshot,com.android.providers.settings,com.android.server.telecom,com.bbk.SuperPowerSave,com.vivo.daemonService,com.vivo.crontab,com.android.keychain,com.android.DeviceAsWebcam,com.vivo.pie,com.vos.as.vit,com.android.bbklog,com.vivo.sps,com.android.localtransport]:
+        com.snapchat.android
+    User 999:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.snapchat.android]
+    path: /data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==/base.apk
+      arm64: [status=speed-profile] [reason=bg-dexopt] [primary-abi]
+        [location is /data/app/~~2aIaTtHX80OXkrq6zfyhMg==/com.snapchat.android-0qMjlvwKwkyVmkHYvzHV-A==/oat/arm64/base.odex]
+
+Compiler stats:
+  [com.snapchat.android]
+    (No recorded stats)

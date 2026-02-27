@@ -1,0 +1,3 @@
+ERROR: Could not collect app info for com.whatsapp
+
+adb.exe: no devices/emulators found

@@ -1,0 +1,2 @@
+ERROR collecting permissions:
+adb.exe: no devices/emulators found
